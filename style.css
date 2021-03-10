@@ -1,8 +1,47 @@
-p {
-    background-color: lightgoldenrodyellow;
-    font-size: 20px;
-}
 div {
     background-color: lightseagreen;
     font-size: 16px;
+    padding: 0;
+    position: absolute;
+}
+#a1 {
+    /* header */
+    background-color: goldenrod;
+    width: 100%;
+    height: 10%;
+    top: 0;
+    left: 0;
+}
+#a2 {
+    /* menu-left */
+    background-color: lightpink;
+    left: 0;
+    width: 20%;
+    top: 10%;
+    height: 75%;
+}
+#a3 {
+    /* menu-right */
+    background-color: lightcoral;
+    right: 0;
+    top: 10%;
+    height: 75%;
+    width: 20%;
+}
+#a4 {
+    /* bottom */
+    background-color: rgb(191, 250, 135);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    width: 100%;
+}
+#a5 {
+    /* content */
+    background-color: lightslategrey;
+    top: 10%;
+    bottom: 15%;
+    left: 20%;
+    right: 20%;
 }
