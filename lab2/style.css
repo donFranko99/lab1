@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: Calibri;
 }
 /* done */
 #header-bar {
@@ -71,4 +72,8 @@ body {
     text-align: center;
     font-size: 22px;
     color: darkturquoise;
+}
+#content h1 {
+    font-size: 30px;
+    font-weight: bold;
 }   
