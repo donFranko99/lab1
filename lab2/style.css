@@ -27,6 +27,8 @@ body {
     display: flex;
 }
 #big-logo {
+    display: flex;
+    flex-direction: column;
     padding-top: 30px;
 }
 #option1 a{
@@ -51,6 +53,7 @@ body {
     padding: 20px;
 }
 #main {
+    align-items: center;
     width: 1200px;
 }
 /* done */
@@ -64,7 +67,8 @@ body {
     background-image: url(zabek.jpg);
     background-repeat: repeat-x;
 }
-p {
+#mission p {
+    text-align: center;
     font-size: 22px;
     color: darkturquoise;
 }   
