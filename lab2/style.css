@@ -76,4 +76,23 @@ body {
 #content h1 {
     font-size: 30px;
     font-weight: bold;
-}   
+}
+#content {
+    display: flex;
+    padding: 35px;
+    border-bottom: lightgray;
+    border-bottom-style: solid;
+}
+#content-right {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#content-left {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
