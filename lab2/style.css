@@ -96,3 +96,37 @@ body {
     flex-direction: column;
     align-items: center;
 }
+#circles {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#circle1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 0.55;
+    background: rgb(84, 205, 241);
+    font-size: 28;
+}
+#circle2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 0.55;
+    background: rgb(84, 205, 241);
+    margin-left: -35px;
+    margin-right: -35px;
+    font-size: 28;
+}
+#circle3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 0.55;
+    background: rgb(84, 205, 241);
+    font-size: 28;
+}
