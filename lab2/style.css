@@ -9,7 +9,7 @@ body {
 /* done */
 #header-bar {
     width: 100%;
-    height: 5px;
+    height: 7px;
     background-color: #242e30;
 }
 #columns {
@@ -63,7 +63,7 @@ body {
     padding: 40px;
     color: white;
     margin-top: 40px;
-    height: 200px;
+    height: 150px;
     background-color: #242e30;
     background-image: url(zabek.jpg);
     background-repeat: repeat-x;
@@ -82,6 +82,9 @@ body {
     padding: 35px;
     border-bottom: lightgray;
     border-bottom-style: solid;
+}
+#content p {
+    color: black;
 }
 #content-right {
     padding-left: 40px;
@@ -105,14 +108,19 @@ body {
     text-align: center;
 }
 #circle1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     opacity: 0.55;
     background: rgb(84, 205, 241);
-    font-size: 28;
 }
 #circle2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -120,13 +128,18 @@ body {
     background: rgb(84, 205, 241);
     margin-left: -35px;
     margin-right: -35px;
-    font-size: 28;
 }
 #circle3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     opacity: 0.55;
     background: rgb(84, 205, 241);
-    font-size: 28;
+}
+#circles p {
+    color: white;
+    font-size: 34px;
 }
