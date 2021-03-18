@@ -33,6 +33,7 @@ body {
     padding-top: 30px;
 }
 a{
+    text-align: left;
     text-indent: 0%;
     color: darkturquoise;
     margin-top: 10px;
@@ -165,6 +166,7 @@ h1 {
     justify-content: center;
 }
 #bottom-menu {
+    font-size: 14px;
     width: 1200px;
     justify-content: center;
     margin: 80px;
