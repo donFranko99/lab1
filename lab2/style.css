@@ -61,6 +61,8 @@ a{
 }
 /* done */
 #footer {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     padding: 40px;
     color: white;
@@ -200,4 +202,8 @@ h1 {
 }
 #menu2 p {
     text-indent: -20px;
+}
+#footer-content {
+    color: lightgray;
+    text-align: center;
 }
