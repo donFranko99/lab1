@@ -34,7 +34,7 @@ body {
 }
 a{
     text-align: left;
-    text-indent: 0%;
+    text-indent: 0px;
     color: darkturquoise;
     margin-top: 10px;
     text-transform: uppercase;
@@ -180,6 +180,7 @@ h1 {
     margin-right: 10px;
 }
 #menu2 {
+    text-indent: 0px;
     width: 25%;
     padding: 15px;
     margin-left: 10px;
@@ -196,4 +197,7 @@ h1 {
     padding: 15px;
     margin-left: 10px;
     margin-right: 10px;
+}
+#menu2 p {
+    text-indent: -20px;
 }
