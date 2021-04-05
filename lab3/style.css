@@ -16,7 +16,7 @@ body {
     text-transform: uppercase;
     align-content: center;
     text-align: center;
-    margin-bottom: 20px;
+    margin: 60px;
 }
 #title img {
     margin-left: auto;
@@ -40,6 +40,26 @@ body {
     padding: 5px;
     padding-bottom: 0;
 }
+#bottom-title {
+    text-align: center;
+}
+#bottom-content {
+    font-size: 12;
+}
+#bottom-content p{
+    text-align: justify;
+    text-justify: inter-word;
+}
 p{
     margin: 0px;
+    font-size: 12px;
+}
+a {
+    margin: 0px;
+    color: #ccc;
+    font-size: 12px;
+    text-decoration: none;
+    border-bottom-style: dotted;
+    border-bottom-color: #ccc;
+    border-bottom-width: 2px;
 }
