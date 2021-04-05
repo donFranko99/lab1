@@ -40,15 +40,32 @@ body {
     padding: 5px;
     padding-bottom: 0;
 }
+#bottom-section {
+    margin: 20px;
+}
 #bottom-title {
     text-align: center;
+    border-bottom: #ccc;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
 }
 #bottom-content {
-    font-size: 12;
+    margin-top: 15px;
+    font-size: 14;
 }
 #bottom-content p{
-    text-align: justify;
-    text-justify: inter-word;
+    font-size: 12px;
+    text-align-last: justify;
+}
+#mail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+}
+#mail-icon {
+    display: flex;
+    flex-direction: row;
 }
 p{
     margin: 0px;
@@ -62,4 +79,14 @@ a {
     border-bottom-style: dotted;
     border-bottom-color: #ccc;
     border-bottom-width: 2px;
+    padding: 0px;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ccc;
+}
+#footer p{
+    text-align: center;
+    color: #444;
+    padding: 50px;
 }
