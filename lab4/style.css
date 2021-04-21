@@ -1,0 +1,26 @@
+body {
+    font-family: Arial,sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50px 70px 70px 70px 70px 70px;
+}
+#list{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50px 70px 70px 70px 70px 70px;
+}
+/* .wrapper > div:nth-child(odd){
+fajna rzecz
+} */
+#menu {
+    width: 150px;
+    height: 100%;
+    background-color: #252a3a;
+    font-size: 16px;
+    color: white;
+}
